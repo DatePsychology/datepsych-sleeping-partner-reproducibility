@@ -1,0 +1,3 @@
+sex,cases,denominator,percent,wilson95_lo_pct,wilson95_hi_pct,note
+Men,515,839,61.38259833134684,58.043388636170235,64.61805000108517,reconstructed count; binomial interval not corrected for non-probability sampling
+Women,220,289,76.12456747404845,70.88704689723986,80.67669022116345,reconstructed count; binomial interval not corrected for non-probability sampling

@@ -1,0 +1,9 @@
+key,men_yes,men_total,women_yes,women_total,yates_chi,yates_p,pearson_chi,pearson_p,fisher_p,assumption
+current_waking,453,681,154,240,0.338866450566,0.560484260012,0.437322172834,0.508417768274,0.526824358989,rounded percentages uniquely reconstruct; validation test
+current_assault_exposed,3,453,5,154,4.08268524308,0.0433247555472,5.90261439036,0.0151184276738,0.0281631251129,8 published events; denominator conditional on exposure is inferred
+current_assault_partnered,3,681,5,240,3.81773106832,0.0507128672589,5.56197576399,0.0183546882345,0.0318828991753,"alternative denominator, not declared as authors calculation"
+current_flirting_inferred_missingness,451,681,134,236,6.36851817192,0.0116162556607,6.77133414073,0.00926335618288,0.0117993852717,one compatible solution; 4 fewer female responses; near-match
+past_waking_default,515,839,220,289,19.9336012464,8.0178706693e-06,20.5778505805,5.72547263761e-06,4.35066827329e-06,assumes 220 female cases out of 289; rounded 76% permits 219 and 221 too
+past_assault_inferred_valid,14,830,46,280,86.1261370482,1.68816783126e-20,88.9858642734,3.97643802648e-21,8.94928657124e-18,denominators inferred because this nearly exactly reproduces published chi-square
+past_assault_exposed_alternative,14,515,46,220,65.6342764416,5.42863562245e-16,68.0390732568,1.60287599476e-16,6.64754584467e-15,conditional alternative; may overstate valid exposure responses
+past_assault_all_prior_alternative,14,839,46,289,83.8447324293,5.35200074248e-20,86.6508076142,1.29477687254e-20,1.88983361894e-17,prior partnered respondents before apparent item-level nonresponse

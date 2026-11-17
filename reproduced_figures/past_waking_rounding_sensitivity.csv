@@ -1,0 +1,4 @@
+men_exposed,men_total,women_exposed,women_total,reconstructed_yates_chi,reconstructed_yates_p,published_yates_chi,published_p,status
+515,839,219,289,18.9717844660,1.326658427e-05,3.7084,0.05414,discrepancy under no-missingness assumption
+515,839,220,289,19.9336012464,8.017870669e-06,3.7084,0.05414,discrepancy under no-missingness assumption
+515,839,221,289,20.9205371744,4.787344028e-06,3.7084,0.05414,discrepancy under no-missingness assumption

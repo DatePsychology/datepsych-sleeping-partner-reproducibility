@@ -1,0 +1,14 @@
+group,denominator_group,published_percent,decimals,measure,source,note
+women,all_sample,24.9,1,female_share,DatePsychology methods,"Total N=1,343"
+men,all_men,32.5,1,not_currently_partnered,DatePsychology Current Relationship,
+women,all_women,28.1,1,not_currently_partnered,DatePsychology Current Relationship,
+men,currently_partnered_men,66.5,1,current_waking,DatePsychology Current Relationship,
+women,currently_partnered_women,64.2,1,current_waking,DatePsychology Current Relationship,
+men,all_men,16.8,1,never_past_relationship,DatePsychology Past Relationships,
+women,all_women,13.5,1,never_past_relationship,DatePsychology Past Relationships,
+men,previously_partnered_men,61.4,1,past_waking,DatePsychology Past Relationships,
+women,previously_partnered_women,76,0,past_waking,DatePsychology Past Relationships,"Whole percentage; 219, 220, 221 could all round to 76% for n=289"
+men,currently_partnered_men,66.2,1,current_flirting,DatePsychology Current Relationship,Denominator not stated explicitly
+women,currently_partnered_women,56.8,1,current_flirting,DatePsychology Current Relationship,A possible response denominator is 236 instead of 240
+men,previously_partnered_men,65.3,1,past_flirting,DatePsychology Past Relationships,Exact denominator not supplied
+women,previously_partnered_women,50.0,0,past_flirting,DatePsychology Past Relationships,Exact denominator not supplied

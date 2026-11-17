@@ -1,0 +1,10 @@
+key,comparison,method_reported,statistic_reported,p_reported,other_reported,source,note
+current_waking,sex: woken for sex in current relationship,chi_square,0.33887,0.5605,df=1,DatePsychology Current Relationship,
+current_assault,sex: self-identified assault current relationship,chi_square,1.6798e-30,1,df=1; three men and five women reported yes; 99.6%/96.9% no,DatePsychology Current Relationship,Small expected cells; Fisher exact is appropriate sensitivity
+current_flirting,sex: current flirting,chi_square,6.3675,0.01162,66.2% men; 56.8% women,DatePsychology Current Relationship,
+current_positivity,sex: current positive/negative evaluation,Wilcoxon rank-sum,180772,0.6372,d=-0.02,DatePsychology Current Relationship,Likert individual response data absent
+men_satisfaction,current men satisfaction: woke vs not,Wilcoxon rank-sum,77360,0.9101,d=0.03,DatePsychology Current Relationship,Likert individual response data absent
+women_satisfaction,current women satisfaction: woke vs not,Wilcoxon rank-sum,98737,0.7578,d=-0.01,DatePsychology Current Relationship,Likert individual response data absent
+past_waking,sex: woken for sex in past relationship,chi_square,3.7084,0.05414,df=1,DatePsychology Past Relationships,76% women reported without decimal
+past_assault,sex: self-identified assault past relationships,chi_square,86.126,<2.2e-16,df=1; 14 men and 46 women reported yes; 98.3%/83.6% no,DatePsychology Past Relationships,Reproduces for 14/830 men versus 46/280 women
+past_positivity,sex: past positive/negative evaluation,Wilcoxon rank-sum,297638,0.7062,none,DatePsychology Past Relationships,Text has did/did not draft artifact

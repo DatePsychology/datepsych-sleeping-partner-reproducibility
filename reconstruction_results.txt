@@ -1,0 +1,49 @@
+DATE PSYCHOLOGY SLEEPING-PARTNER SURVEY — INDEPENDENT PUBLISHED-AGGREGATE AUDIT
+No microdata, original questionnaire dataset, or original analysis code was available.
+
+1. RECONSTRUCTED SAMPLE (assuming no status-item nonresponse)
+  men: 1009
+  women: 334
+  current_men: 681
+  current_women: 240
+  current_woken_men: 453
+  current_woken_women: 154
+  past_men: 839
+  past_women: 289
+  past_woken_men: 515
+  past_woken_women: [219, 220, 221] fit rounded 76%; chart scenario uses 220
+
+2. PUBLISHED VS RECONSTRUCTED CHI-SQUARE
+  current_waking: authors chi=0.33887, p=0.5605; Yates chi=0.338866, p=0.56048426; Fisher p=0.526824359.
+    assumptions: rounded percentages uniquely reconstruct; validation test
+  current_assault_exposed: authors chi=1.6798e-30, p=1; Yates chi=4.082685, p=0.0433247555; Fisher p=0.0281631251.
+    assumptions: 8 published events; denominator conditional on exposure is inferred
+  current_flirting_inferred_missingness: authors chi=6.3675, p=0.01162; Yates chi=6.368518, p=0.0116162557; Fisher p=0.0117993853.
+    assumptions: one compatible solution; 4 fewer female responses; near-match
+  past_waking_default: authors chi=3.7084, p=0.05414; Yates chi=19.933601, p=8.01787067e-06; Fisher p=4.35066827e-06.
+    assumptions: assumes 220 female cases out of 289; rounded 76% permits 219 and 221 too
+  past_assault_inferred_valid: authors chi=86.126, p=<2.2e-16; Yates chi=86.126137, p=1.68816783e-20; Fisher p=8.94928657e-18.
+    assumptions: denominators inferred because this nearly exactly reproduces published chi-square
+
+3. PAST-WAKING 76% ROUNDING SENSITIVITY
+  women 219/289: Yates chi=18.971784, p=1.3266584e-05
+  women 220/289: Yates chi=19.933601, p=8.0178707e-06
+  women 221/289: Yates chi=20.920537, p=4.787344e-06
+
+4. FEMALE CURRENT EVALUATION
+  eligible women who reported waking: 154; compatible full 3-category denominator among exposed: 0
+  all-partnered compatible example: [(149, 65, 26)] / 240
+
+5. WILCOXON/MANN-WHITNEY STATISTIC BOUNDS
+  current positivity, exposed: W=180772; U possible=False; raw rank group1 possible=False; raw rank group2 possible=False; reported p=0.6372.
+  current positivity, all partnered alternative: W=180772; U possible=False; raw rank group1 possible=False; raw rank group2 possible=True; reported p=0.6372.
+  male satisfaction, exposed vs not: W=77360; U possible=True; raw rank group1 possible=False; raw rank group2 possible=True; reported p=0.9101.
+  female satisfaction, exposed vs not: W=98737; U possible=False; raw rank group1 possible=False; raw rank group2 possible=False; reported p=0.7578.
+  past positivity, exposed: W=297638; U possible=False; raw rank group1 possible=False; raw rank group2 possible=False; reported p=0.7062.
+  past positivity, all past partnered alternative: W=297638; U possible=False; raw rank group1 possible=False; raw rank group2 possible=False; reported p=0.7062.
+  Note: R wilcox.test uses a U-type statistic; rank-sum conventions vary. No tied-Likert test is recreated.
+
+6. INTERPRETATION
+  Reproducibility of an aggregate statistic does not verify response definitions or sample selection.
+  Inconsistent values are not evidence of intentional wrongdoing.
+  The two underlying surveys operationalize different phenomena; plots are not a direct prevalence comparison.

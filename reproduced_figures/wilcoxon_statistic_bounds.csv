@@ -1,0 +1,7 @@
+label,n1,n2,N,reported_W,reported_p,U_min,U_max,W_compatible_with_U,raw_rank_1_min,raw_rank_1_max,W_compatible_raw_rank_1,raw_rank_2_min,raw_rank_2_max,W_compatible_raw_rank_2,untied_p_if_U,untied_p_if_raw_1,untied_p_if_raw_2,assumptions
+"current positivity, exposed",453,154,607,180772,0.6372,0,69762,False,102831,172593,False,11935,81697,False,,,,Expected comparison among woken respondents; W impossible under common conventions
+"current positivity, all partnered alternative",681,240,921,180772,0.6372,0,163440,False,232221,395661,False,28920,192360,True,,,3.57693e-87,W possible as women raw rank sum; untied p very different; ties/order unresolved
+"male satisfaction, exposed vs not",453,228,681,77360,0.9101,0,103284,True,102831,206115,False,26106,129390,True,2.53854e-26,,0.872767,W in bounds for certain conventions; inferential test not reproducible
+"female satisfaction, exposed vs not",154,86,240,98737,0.7578,0,13244,False,11935,25179,False,3741,16985,False,,,,W impossible within 240 women
+"past positivity, exposed",515,220,735,297638,0.7062,0,113300,False,132870,246170,False,24310,137610,False,,,,W impossible among described exposed groups
+"past positivity, all past partnered alternative",839,289,1128,297638,0.7062,0,242471,False,352380,594851,False,41905,284376,False,,,,W still impossible under these two group definitions

@@ -1,0 +1,9 @@
+response,group,cases,denominator,percent,reported_rounding_decimals,source
+Started actively participating,partner,94,143,65.73426573426573,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
+Started actively participating,nonpartner,4,29,13.793103448275861,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
+Allowed to finish but did not participate,partner,26,143,18.181818181818183,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
+Allowed to finish but did not participate,nonpartner,4,29,13.793103448275861,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
+"Told them to stop, but they did not stop",partner,9,143,6.293706293706293,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
+"Told them to stop, but they did not stop",nonpartner,6,29,20.689655172413794,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
+Told partner wanted it again,partner,66,143,46.15384615384615,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
+Told partner wanted it again,nonpartner,2,29,6.896551724137931,1,"Drouin & Cornelius (2026), Table 3; multiple choices allowed"
